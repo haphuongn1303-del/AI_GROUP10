@@ -48,7 +48,7 @@ export default function App() {
   useEffect(() => {
     let savedSheetId = localStorage.getItem('pullman_sync_sheet_id');
     if (!savedSheetId) {
-      savedSheetId = '1UR_Ri4fqR2-_oKlz9YE89WqYGg4bQWcbmk5cvtOW3aQ';
+      savedSheetId = 'https://docs.google.com/spreadsheets/d/1UR_Ri4fqR2-_oKlz9YE89WqYGg4bQWcbmk5cvtOW3aQ/edit?gid=316793052#gid=316793052';
       localStorage.setItem('pullman_sync_sheet_id', savedSheetId);
     }
     setSpreadsheetId(savedSheetId);
